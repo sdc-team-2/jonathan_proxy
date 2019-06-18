@@ -4,8 +4,11 @@ const port = 3000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const axios = require('axios');
+const morgan = require('morgan');
 const app = express();
+const newrelic = require('newrelic');
 
+app.use(morgan('tiny'));
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
