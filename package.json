@@ -18,6 +18,8 @@
     "express": "^4.15.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.9.6",
+    "morgan": "^1.9.1",
+    "newrelic": "^5.10.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
